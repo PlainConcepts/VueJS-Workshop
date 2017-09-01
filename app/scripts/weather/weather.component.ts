@@ -4,5 +4,5 @@ import Template from './weather.component.html?style=weather/weather.component.c
 
 @Template
 @Component
-export default class WeatherComponent extends BaseComponent {
+export class WeatherComponent extends BaseComponent {
 }

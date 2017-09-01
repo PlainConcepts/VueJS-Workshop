@@ -1,20 +1,21 @@
 import { RouteConfig } from 'vue-router';
+import { WeatherComponent, WeatherListComponent, WeatherDetailComponent } from '.';
 
 export let weatherRoutes: RouteConfig[] = [
     {
         path: '/weather',
         name: 'weather',
-        component: () => import('./weather.component'),
+        component: WeatherComponent,
         children: [
             {
                 path: '',
                 name: 'weather-list',
-                component: () => import('./weather-list/weather-list.component')
+                component: WeatherListComponent
             },
             {
                 path: ':id',
                 name: 'weather-detail',
-                component: () => import('./weather-detail/weather-detail.component'),
+                component: WeatherDetailComponent,
                 props: true
             }
         ]
