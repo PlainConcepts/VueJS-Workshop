@@ -1,5 +1,6 @@
 <section>
-    <city-add></city-add>
+    <input type="text" v-model="name">
+    <button @click="search">Search city</button>
 
     <ul>
         <li v-for="city in cities">
