@@ -1,7 +1,6 @@
 import VueRouter from 'vue-router';
 import { Vue } from 'vue-property-decorator';
 import { citiesRoutes } from './cities';
-import { weatherRoutes } from './weather';
 
 Vue.use(VueRouter);
 
@@ -13,10 +12,9 @@ export function router() {
         routes: [
             {
                 path: '/',
-                redirect: '/weather',
+                redirect: '/cities',
             },
             ...citiesRoutes,
-            ...weatherRoutes
         ]
     });
 

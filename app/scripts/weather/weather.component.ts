@@ -1,8 +1,0 @@
-import { Component, BaseComponent } from '~/core';
-
-import Template from './weather.component.html?style=weather/weather.component.css';
-
-@Template
-@Component
-export class WeatherComponent extends BaseComponent {
-}
