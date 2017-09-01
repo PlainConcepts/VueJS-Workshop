@@ -1,10 +1,8 @@
 import localforage from 'localforage';
-import { injectable } from 'inversify';
 import { City, Weather, WeatherForecast } from '~/shared';
 import { IWeatherService } from '.';
 
-@injectable()
-export class WeatherService implements IWeatherService {
+class WeatherService implements IWeatherService {
     private weathers: Weather[];
 
     private toCelsius(faren: number) {
@@ -35,3 +33,5 @@ export class WeatherService implements IWeatherService {
         return weather;
     }
 }
+
+export let weatherService = new WeatherService();

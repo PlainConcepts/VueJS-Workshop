@@ -1,6 +1,5 @@
 import { Component, BaseComponent } from '~/core';
-import { container } from '~/app.container';
-import { City, ICitiesService, ICitiesServiceId } from '~/shared';
+import { City, citiesService } from '~/shared';
 import { CityAddComponent } from '../shared';
 
 import Template from './city-list.component.html?style=cities/city-list/city-list.component.css';
@@ -12,16 +11,13 @@ import Template from './city-list.component.html?style=cities/city-list/city-lis
     }
 })
 export class CityListComponent extends BaseComponent {
-    private citiesService: ICitiesService;
     public cities: City[] = null;
 
     public async created() {
-        this.citiesService = container.get<ICitiesService>(ICitiesServiceId);
-        
-        this.cities = await this.citiesService.get();
+        this.cities = await citiesService.get();
     }
 
     public remove(id: number) {
-        this.citiesService.remove(id);
+        citiesService.remove(id);
     }
 }

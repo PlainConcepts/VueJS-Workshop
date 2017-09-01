@@ -1,7 +1,5 @@
-import { injectable } from 'inversify';
 import { IDateService } from '.';
 
-@injectable()
 export class DateService implements IDateService {
     public formatDate(date: Date): string {
         if (date == null) {
@@ -17,3 +15,5 @@ export class DateService implements IDateService {
         return digit < 10 ? '0' + digit : digit;
     }
 }
+
+export let dateService = new DateService();
