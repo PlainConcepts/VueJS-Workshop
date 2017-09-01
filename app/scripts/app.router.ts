@@ -1,6 +1,5 @@
 import VueRouter from 'vue-router';
 import { Vue } from 'vue-property-decorator';
-import { citiesRoutes } from './cities';
 
 Vue.use(VueRouter);
 
@@ -12,9 +11,7 @@ export function router() {
         routes: [
             {
                 path: '/',
-                redirect: '/cities',
-            },
-            ...citiesRoutes,
+            }
         ]
     });
 
