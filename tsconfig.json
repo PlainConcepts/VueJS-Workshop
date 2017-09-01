@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "dom",
+      "es2015",
+      "es2016"
+    ],
+    "baseUrl": "./app",
+    "paths": {
+      "~/*": [
+        "scripts/*"
+      ]
+    },
+    "module": "esnext",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true
+  },
+  "compileOnSave": false
+}
