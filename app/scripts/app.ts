@@ -2,9 +2,6 @@ import { Vue } from 'vue-property-decorator';
 import { router } from './app.router';
 import { AppComponent } from './app.component';
 import { CitiesSeed } from './core/seeds';
-import { Filters } from './app.filters';
-
-Vue.use(Filters);
 
 export class App {
     constructor() {

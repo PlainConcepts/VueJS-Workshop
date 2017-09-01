@@ -10,7 +10,7 @@
                     <span>Sunset: {{city.weather.astronomy.sunset}}</span>
                 </div>
                 <div v-if="city.weather.item">
-                    <span>{{city.weather.item.forecast[0].date | date}} (Today):</span>
+                    <span>{{city.weather.item.forecast[0].date}} (Today):</span>
                     <span>{{city.weather.item.forecast[0].low}}ºC / {{city.weather.item.forecast[0].high}}ºC</span>
                     <div>
                         <i :class="['wi', getWeatherIconClass(city.weather.item.forecast[0].code)]"></i>

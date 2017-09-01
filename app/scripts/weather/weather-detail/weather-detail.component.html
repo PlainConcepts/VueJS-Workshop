@@ -3,7 +3,7 @@
 
     <ul>
         <li v-for="forecast in city.weather.item.forecast">
-            <span>{{forecast.date | date}}</span>
+            <span>{{forecast.date}}</span>
 
             <div v-if="city.weather">
                 <div v-if="city.weather.astronomy">
