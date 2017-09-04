@@ -62,8 +62,8 @@ where `{publishing_directory}` = your public folder
 
 ## Authors
 
-* **Quique Fernández** - [PlainConcepts](https://github.com/PlainConcepts)
-* **Juan Carlos López** - [PlainConcepts](https://github.com/PlainConcepts)
+* **Quique Fdez Guerra** - [Twitter](https://twitter.com/ckgrafico)
+* **Juan Carlos López** - [Twitter](https://twitter.com/jcarloslr10)
 
 ## License
 
