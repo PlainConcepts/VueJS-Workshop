@@ -52,6 +52,14 @@ Create a [web.config](web.config) file based on the following example [structure
 
 where `{publishing_directory}` = your public folder
 
+## Exercises
+- 01 - [Hello World](https://github.com/PlainConcepts/VueJS-Workshop/tree/01-hello-world)
+- 02 - [Cities](https://github.com/PlainConcepts/VueJS-Workshop/tree/02-cities)
+- 03 - [Weather](https://github.com/PlainConcepts/VueJS-Workshop/tree/03-weather)
+- 04 - [Child Component](https://github.com/PlainConcepts/VueJS-Workshop/tree/04-child-component)
+- 05 - [Filter](https://github.com/PlainConcepts/VueJS-Workshop/tree/05-filter)
+- 06 - [Lazy loading + IoC + Styles (same as master)](https://github.com/PlainConcepts/VueJS-Workshop/tree/06-lazy-loading-ioc-styles)
+
 ## Authors
 
 * **Quique Fernández** - [PlainConcepts](https://github.com/PlainConcepts)
