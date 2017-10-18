@@ -62,8 +62,8 @@ where `{publishing_directory}` = your public folder
 
 ## Authors
 
-* **Quique Fdez Guerra** - [Twitter](https://twitter.com/ckgrafico)
-* **Juan Carlos López** - [Twitter](https://twitter.com/jcarloslr10)
+* **Quique Fdez Guerra** - [@CKGrafico](https://twitter.com/ckgrafico)
+* **Juan Carlos López** - [@jcarloslr10](https://twitter.com/jcarloslr10)
 
 ## License
 
